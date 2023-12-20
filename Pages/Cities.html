@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Project 1 | Cities</title>
+            <style>
+                  body {
+                        font-family: Arial, sans-serif;
+                        background-color: #EEE5E5;
+                  }
+
+                  .logo-background {
+                        background-color: #B283E0;
+                        height: 50px;
+                        width: 100px;
+                        text-align: center;
+                        border-radius: 50%;
+                  }
+
+                  .logo {
+                        /* text-align: center; */
+                        font-size: 20px;
+                        margin: 20px;
+                        /* padding: px; */
+                  }
+
+                  .container {
+                        max-width: 800px;
+                        margin: auto;
+                        padding: 20px;
+                        /* background-color: #fff; */
+                        border-radius: 5px;
+                        /* margin-top: 10%; */
+                  }
+
+                  .inner-container {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-direction: row;
+                        margin-bottom: 20px;
+                  }
+
+                  .search {
+                        width: 241px;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                  }
+
+                  button {
+                        width: 90px;
+                        padding: 10px;
+                        margin: 10px;
+                        background-color: #24A0ED;
+                        color: #fff;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                  }
+
+                  .link {
+                        text-decoration: none;
+                        color: #000;
+                  }
+
+                  .city {
+                        width: 150px;
+                        height: 100px;
+                        /* background-color: #E19696; */
+                        color: #000;
+                        font-size: 16px;
+                        /* text-decoration: none; */
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                  }
+
+                  #mumbai {
+                        background-color: #E19696;
+                  }
+
+                  #pune {
+                        background-color: #DFD04A;
+                  }
+
+                  #banglore {
+                        background-color: #4056C9;
+                  }
+
+                  #delhi {
+                        background-color: #C54BA3;
+                  }
+
+                  #nashik {
+                        background-color: #23D6E1;
+                  }
+
+                  #nagpur {
+                        background-color: #67D740;
+                  }
+
+                  .cities {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-gap: 50px;
+                        margin: 50px 0px 0px 50px;
+                  }
+
+                  .link {
+                        text-decoration: none;
+                  }
+            </style>
+      </head>
+
+      <body>
+            <div class="logo-background">
+                  <span class="logo">Logo</span>
+            </div>
+            <div class="container">
+                  <div class="inner-container">
+                        <input type="text" class="search" placeholder="Search">
+                        <button type="button"><a href="" class="link">Add City</a></button>
+                  </div>
+                  <div class="cities">
+                        <a href="./Customer.html" class="link"><button class="city" id="mumbai">Mumbai</button></a>
+                        <a href="./Customer.html" class="link"><button class="city" id="pune">Pune</button></a>
+                        <a href="./Customer.html" class="link"><button class="city" id="banglore">Banglore</button></a>
+                        <a href="./Customer.html" class="link"><button class="city" id="delhi">Delhi</button></a>
+                        <a href="./Customer.html" class="link"><button class="city" id="nashik">Nashik</button></a>
+                        <a href="./Customer.html" class="link"><button class="city" id="nagpur">Nagpur</button></a>
+                  </div>
+            </div>
+      </body>
+
+</html>
